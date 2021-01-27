@@ -17,7 +17,6 @@ public class CreativeMode : Mod
 		Debug.Log(string.Format("Mod {0} has been loaded!", ModName));
 	}
 	
-	[ConsoleCommand("/buildall", "Build All Ghosts")]
 	public void OnModUnload()
 	{
 		GameObject InGameMenu = GameObject.Find("InGameMenu");
