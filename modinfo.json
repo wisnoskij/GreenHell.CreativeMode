@@ -1,0 +1,13 @@
+{
+  "name": "Creative Mode",
+  "author": "Wisnoskij",
+  "description": "Creative mode for Green Hell.",
+  "version": "v1.0.0",
+  "license": "Use it however you want, with or without attribution",
+  "icon": "Icon.png",
+  "banner": "Banner.png",
+  "gameVersion": "Update 1.9.7",
+  "updateUrl": "https://greenhellmodding.com/api/v1/mods/creativemode/version.txt",
+  "isModPermanent": false,
+  "excludedFiles": []
+}
