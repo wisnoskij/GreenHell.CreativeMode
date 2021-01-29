@@ -22,9 +22,9 @@ public class CreativeMode : Mod
 		GameObject InGameMenu = GameObject.Find("InGameMenu");
         if (InGameMenu != null && InGameMenu.transform.Find("MenuInGame").Find("Buttons").Find("Build") != null)
         {
-            Destroy(InGameMenu.transform.Find("MenuInGame").Find("Buttons").Find("Build").gameObject);
+		Destroy(InGameMenu.transform.Find("MenuInGame").Find("Buttons").Find("Build").gameObject);
         }
-        instance.UnpatchAll();
+		instance.UnpatchAll(HarmonyId);
 		Debug.Log(string.Format("Mod {0} has been unloaded!", ModName));
 	}
 	
